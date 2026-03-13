@@ -6,7 +6,7 @@ const centerX = width/2;
 const centerY = height/2;
 const holeSize = .2;
 let subSteps = 40;
-let totalFrameCount = 50;
+let totalFrameCount = 500;
 let gravity = .4;
 let ballCount = 1000;
 
