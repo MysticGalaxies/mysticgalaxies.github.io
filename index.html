@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A Rotating Circle</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p>Mason's Game</p>
+        <canvas id="gameCanvas" width="1200" height="900"></canvas>
+    </body>
+    <body>
+        <button onclick="bake()" class="buttons">Bake</button>
+        <b class="text">Total Frames</b>
+        <b class="text">Sub-steps</b>
+        <b class="text">Ball Count</b>
+        <b class="text">Ball Size</b>
+        <b class="text">Gravity</b>
+        <b class="text">Wall Restitution</b>
+        <b class="text">Ball Restitution</b>
+    </body>
+    <body>
+        <input type="text" id="totalFrames" value="15" class="input"></textarea>
+        <input type="text" id="subSteps" value="30" class="input"></textarea>
+        <input type="text" id="ballCount" value="1000" class="input"></textarea>
+        <input type="text" id="ballSize" value="2" class="input"></textarea>
+        <input type="text" id="gravity" value=".4" class="input"></textarea>
+        <input type="text" id="wallRestitution" value=".95" class="input"></textarea>
+        <input type="text" id="ballRestitution" value=".75" class="input"></textarea>
+    </body>
+    <body>
+        <button onclick="save()" class="buttons">Save Baked Video</button>
+        <button onclick="load()" class="buttons">Load Baked Video</button>
+    </body>
+    <script src="script.js"> </script>
+</html>
